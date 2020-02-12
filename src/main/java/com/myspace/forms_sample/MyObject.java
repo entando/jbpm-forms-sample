@@ -8,13 +8,13 @@ public class MyObject implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label("My Boolean")
+	@org.kie.api.definition.type.Label(value = "My Boolean")
 	private java.lang.Boolean myBoolean;
-	@org.kie.api.definition.type.Label("My String")
+	@org.kie.api.definition.type.Label(value = "My String")
 	private java.lang.String myString;
-	@org.kie.api.definition.type.Label("My Date Time ")
+	@org.kie.api.definition.type.Label(value = "My Date Time ")
 	private java.time.LocalDateTime myDateTime;
-	@org.kie.api.definition.type.Label("My Double")
+	@org.kie.api.definition.type.Label(value = "My Double")
 	private java.lang.Double myDouble;
 
 	public MyObject() {
