@@ -17,9 +17,6 @@ public class MyObject implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("My Double")
 	private java.lang.Double myDouble;
 
-	@org.kie.api.definition.type.Label(value = "My Integer")
-	private java.lang.Integer myInteger;
-
 	public MyObject() {
 	}
 
@@ -55,22 +52,12 @@ public class MyObject implements java.io.Serializable {
 		this.myDouble = myDouble;
 	}
 
-	public java.lang.Integer getMyInteger() {
-		return this.myInteger;
-	}
-
-	public void setMyInteger(java.lang.Integer myInteger) {
-		this.myInteger = myInteger;
-	}
-
 	public MyObject(java.lang.Boolean myBoolean, java.lang.String myString,
-			java.time.LocalDateTime myDateTime, java.lang.Double myDouble,
-			java.lang.Integer myInteger) {
+			java.time.LocalDateTime myDateTime, java.lang.Double myDouble) {
 		this.myBoolean = myBoolean;
 		this.myString = myString;
 		this.myDateTime = myDateTime;
 		this.myDouble = myDouble;
-		this.myInteger = myInteger;
 	}
 
 }
