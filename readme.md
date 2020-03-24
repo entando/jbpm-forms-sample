@@ -19,6 +19,7 @@ It also has some tips on the fields, nested forms, read-only fields and default 
 
 Process Form:
 
-![Form](images/process-form.png)
+![Form](images/process-form-1.png)
+![Form](images/process-form-2.png)
 
 
